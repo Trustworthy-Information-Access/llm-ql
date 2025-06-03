@@ -1,4 +1,4 @@
-# llm-ql 
+# LLM-QL 
 This repository contains the code, datasets models used in our paper: "Unleashing the Power of LLMs in Dense Retrieval with Query
 Likelihood Modeling" 
 
