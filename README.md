@@ -12,7 +12,7 @@ We use the hard negative samples provided by [Tevatron](https://www.dropbox.com/
 
 
 # Run
-## Ql-learning runing
+## QL Modeling
 ```
 Deepspeed --num_gpus=8 ql-learning/run.py \
   --deepspeed ql-learning/ds_zero3_config.json \
@@ -42,7 +42,7 @@ Deepspeed --num_gpus=8 ql-learning/run.py \
   --bf16 True \
 ```
 The trained model can be directly downloaded on (QL)[https://huggingface.co/hengranZhang/LLM-QL/tree/main]
-## contrastive_learning
+## Contrastive learning
 ```
 cd contrastive_learning/llm-index/tevatron-main/src
 deepspeed --include localhost:0,1,2,3,4,5,6,7 --master_port 60001 --module tevatron.retriever.driver.train \
