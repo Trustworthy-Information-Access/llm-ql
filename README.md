@@ -7,7 +7,7 @@ Dense retrieval is a crucial task in Information Retrieval (IR) and is the found
 
 
 # Download dataset 
-We utilize [MSMARCO v1 and TREC-DL](https://microsoft.github.io/msmarco/Datasets)) and  [BEIR](https://github.com/beir-cellar/beir)).  
+We utilize the [MSMARCO v1 and TREC-DL](https://microsoft.github.io/msmarco/Datasets) and  [BEIR](https://github.com/beir-cellar/beir).  
 We use the hard negative samples provided by [Tevatron](https://www.dropbox.com/scl/fi/pkm1mtgfobae9kuesp7dr/train-tevatron.jsonl?rlkey=2thutc4zkozr9jp4zbbrz5rvi&dl=0). 
 
 
