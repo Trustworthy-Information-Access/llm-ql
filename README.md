@@ -71,5 +71,3 @@ deepspeed --include localhost:0,1,2,3,4,5,6,7 --master_port 60001 --module tevat
   --warmup_steps 100 \
   --gradient_accumulation_steps 4
 ```
-The trained model can be directly downloaded on (QL)[https://huggingface.co/hengranZhang/LLM-QL/tree/main]
-
