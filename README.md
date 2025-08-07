@@ -40,7 +40,7 @@ Deepspeed --num_gpus=8 ql-learning/run.py \
   --use_lora False \
   --bf16 True \
 ```
-The trained model can be directly downloaded on (QL)[https://huggingface.co/hengranZhang/LLM-QL/tree/main]
+
 ## Contrastive Learning
 ```
 cd contrastive_learning/llm-index/tevatron-main/src
