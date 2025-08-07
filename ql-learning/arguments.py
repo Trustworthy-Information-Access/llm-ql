@@ -101,7 +101,7 @@ class DataArguments:
         default='./data_dir'
     )
     train_data: str = field(
-        default='/home/baaiks/cf/pycharm/test/FlagEmbedding/FlagEmbedding/baai_general_embedding/toy_finetune_data.jsonl', 
+        default='', 
         metadata={"help": "Path to train data"},
     )
 
