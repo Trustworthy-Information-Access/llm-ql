@@ -17,7 +17,7 @@ Deepspeed --num_gpus=8 ql-learning/run.py \
   --deepspeed ql-learning/ds_zero3_config.json \
   --output_dir $encode_path1 \
   --model_name_or_path $ori_model_path1 \
-  --train_data $pre_train_path1 \
+  --train_data $training_path \
   --learning_rate 1e-5 \
   --num_train_epochs 2 \
   --rand_num 0.1 \
